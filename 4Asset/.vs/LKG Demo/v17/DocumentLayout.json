@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rosey\\source\\repos\\IGME690\\Unity\\LKG Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B881DB-42E3-781B-5AC5-44A1FCD66A6F}|LookingGlass.csproj|c:\\users\\rosey\\source\\repos\\igme690\\unity\\lkg demo\\assets\\lookingglass\\scripts\\lookingglass\\hologramuicamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B881DB-42E3-781B-5AC5-44A1FCD66A6F}|LookingGlass.csproj|solutionrelative:assets\\lookingglass\\scripts\\lookingglass\\hologramuicamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HologramUICamera.cs",
+              "DocumentMoniker": "C:\\Users\\rosey\\source\\repos\\IGME690\\Unity\\LKG Demo\\Assets\\LookingGlass\\Scripts\\LookingGlass\\HologramUICamera.cs",
+              "RelativeDocumentMoniker": "Assets\\LookingGlass\\Scripts\\LookingGlass\\HologramUICamera.cs",
+              "ToolTip": "C:\\Users\\rosey\\source\\repos\\IGME690\\Unity\\LKG Demo\\Assets\\LookingGlass\\Scripts\\LookingGlass\\HologramUICamera.cs",
+              "RelativeToolTip": "Assets\\LookingGlass\\Scripts\\LookingGlass\\HologramUICamera.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAhwDQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T14:12:15.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
