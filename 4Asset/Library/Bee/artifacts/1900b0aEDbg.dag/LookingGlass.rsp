@@ -116,6 +116,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:UNITY_POST_PROCESSING_STACK_V2
@@ -342,6 +343,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/FFmpegOut.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/GraphQLClient.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Hjg.Pngcs.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/WebSocketSharp.ref.dll"
