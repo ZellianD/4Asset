@@ -1043,7 +1043,7 @@ PrefabInstance:
     - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 714109282}
     - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1054,7 +1054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Vehicle, Assembly-CSharp
+      value: InputController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
