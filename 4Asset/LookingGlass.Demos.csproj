@@ -738,6 +738,12 @@
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LookingGlass.csproj">
@@ -755,14 +761,6 @@
     <ProjectReference Include="NativeFilePicker.Editor.csproj">
       <Project>{31690A05-0579-5C4D-B539-C6EE503EFCF8}</Project>
       <Name>NativeFilePicker.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{3C2A89FB-7A4C-FE66-0D6E-AA75339B9779}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{1714C6DB-19F1-1D9C-9D51-9DD0202E8416}</Project>
-      <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

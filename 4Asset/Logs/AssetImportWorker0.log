@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16088 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65425 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/rosey/source/repos/4Asset/4Asset
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52828
+51082
 Successfully changed project path to: C:/Users/rosey/source/repos/4Asset/4Asset
 C:/Users/rosey/source/repos/4Asset/4Asset
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/rosey/source/repos/4Asset/4Asset
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25072] Host "[IP] 129.21.90.47 [Port] 0 [Flags] 2 [Guid] 1010034165 [EditorId] 1010034165 [Version] 1048832 [Id] WindowsEditor(7,BoneCrusher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3212] Host "[IP] 68.180.87.197 [Port] 0 [Flags] 2 [Guid] 1994185584 [EditorId] 1994185584 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NU660SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25072] Host "[IP] 129.21.90.47 [Port] 0 [Flags] 2 [Guid] 1010034165 [EditorId] 1010034165 [Version] 1048832 [Id] WindowsEditor(7,BoneCrusher) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3212] Host "[IP] 68.180.87.197 [Port] 0 [Flags] 2 [Guid] 1994185584 [EditorId] 1994185584 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NU660SS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 15.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -61,52 +61,52 @@ Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
-    Driver:   31.0.15.1770
+    VRAM:     8006 MB
+    Driver:   32.0.15.6094
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006312 seconds.
-- Loaded All Assemblies, in  0.436 seconds
+Registered in 0.006956 seconds.
+- Loaded All Assemblies, in  0.309 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.390 seconds
-Domain Reload Profiling: 825ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 554ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (115ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (77ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (157ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (391ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (247ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (280ms)
+		SetupLoadedEditorAssemblies (191ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (177ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,14 +114,14 @@ Domain Reload Profiling: 825ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.000 seconds
-Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.714 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:02:09 PM...
+Attempting to connect to LKG Bridge at 2/14/2025 7:51:52 PM...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -138,145 +138,16 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.141 seconds
-Domain Reload Profiling: 2138ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (746ms)
-		LoadAssemblies (410ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (400ms)
-			TypeCache.Refresh (366ms)
-				TypeCache.ScanAssembly (351ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1142ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (950ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (771ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 5.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4009 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (1.5 MB). Loaded Objects now: 4458.
-Memory consumption went from 154.0 MB to 152.5 MB.
-Total: 7.067400 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.144500 ms MarkObjects: 6.253300 ms  DeleteObjects: 0.395100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 6579.785041 seconds.
-  path: Assets/Input Manager.prefab
-  artifactKey: Guid(a5b93b0425ea84e40bccb389dfaa5af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input Manager.prefab using Guid(a5b93b0425ea84e40bccb389dfaa5af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c8233b93594542ff36c5d0f2d0de04') in 0.029973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (1.5 MB). Loaded Objects now: 4459.
-Memory consumption went from 81.5 MB to 80.0 MB.
-Total: 4.873700 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.135000 ms MarkObjects: 4.171400 ms  DeleteObjects: 0.256200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 70.358120 seconds.
-  path: Assets/3D Project.inputactions
-  artifactKey: Guid(8009c7a2775948646b2c6ba747a1511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Project.inputactions using Guid(8009c7a2775948646b2c6ba747a1511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90b80081a6599c9e9f7f323172126db') in 0.013115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 21.691545 seconds.
-  path: Assets/Input.inputactions
-  artifactKey: Guid(8009c7a2775948646b2c6ba747a1511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input.inputactions using Guid(8009c7a2775948646b2c6ba747a1511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b005d35834d2eafba7f40a6c897016') in 0.008647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 14.386007 seconds.
-  path: Assets/Scripts/Input Manager.prefab
-  artifactKey: Guid(584fb9dbc3b6c7e47a851e830d0c80c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Input Manager.prefab using Guid(584fb9dbc3b6c7e47a851e830d0c80c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb5a1ba100f38c34e04f3eec7e27034') in 0.004331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 23.316682 seconds.
-  path: Assets/Scripts/Input Manager.prefab
-  artifactKey: Guid(584fb9dbc3b6c7e47a851e830d0c80c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Input Manager.prefab using Guid(584fb9dbc3b6c7e47a851e830d0c80c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d4a05026da4c41f96dd6a35e6a8cfc') in 0.003514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 16.555363 seconds.
-  path: Assets/Scenes/4Asset.unity
-  artifactKey: Guid(1e257ba7c9c367a408c6291847f5998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/4Asset.unity using Guid(1e257ba7c9c367a408c6291847f5998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6114d26d383c22bbe4a3113a83ec63') in 0.001134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.954 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:08:32 PM...
+Unable to find LKG Bridge settings.json at file path: C:/Users/rosey/AppData/Roaming/Looking Glass/Bridge/settings.json
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
+UnityEngine.Debug:LogWarning (object)
+LookingGlass.LKGDisplaySystem:GetLKGBridgePorts (int&,int&) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:291)
+LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:198)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26> (LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26&)
+LookingGlass.LKGDisplaySystem:ForceReconnect ()
+LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:318)
 System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
 LookingGlass.LKGDisplaySystem:Reconnect ()
 LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
@@ -286,825 +157,56 @@ LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGl
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
-System.InvalidOperationException: ConfigurationSectionGroup cannot be edited until it is added to a Configuration instance as its descendant
-  at System.Configuration.ConfigurationSectionGroup.get_Config () [0x00008] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at System.Configuration.ConfigurationSectionGroup.get_Sections () [0x00008] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at System.Configuration.Configuration.get_Sections () [0x00006] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at System.Configuration.Configuration.GetSection (System.String sectionName) [0x00010] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection (System.String configKey) [0x00006] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at System.Configuration.ConfigurationManager.GetSection (System.String sectionName) [0x00005] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at System.Configuration.ConfigurationManager.get_AppSettings () [0x00000] in <e6286693d6cd42d8918c72af4665d3dc>:0 
-  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.458 seconds
-Domain Reload Profiling: 2409ms
-	BeginReloadAssembly (217ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (628ms)
-		LoadAssemblies (401ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (316ms)
-			TypeCache.Refresh (305ms)
-				TypeCache.ScanAssembly (290ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1459ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (972ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (790ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4466.
-Memory consumption went from 142.7 MB to 141.2 MB.
-Total: 4.469800 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.144200 ms MarkObjects: 3.788600 ms  DeleteObjects: 0.275200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 237.124369 seconds.
-  path: Assets/Scripts/Vehicle.cs
-  artifactKey: Guid(e9a65bd33a359054bb98e38ec6dc286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Vehicle.cs using Guid(e9a65bd33a359054bb98e38ec6dc286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b08f53b6e8014a3b8648aada66826a') in 0.003340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 56.877306 seconds.
-  path: Assets/Scripts/Vehicle.cs
-  artifactKey: Guid(e9a65bd33a359054bb98e38ec6dc286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Vehicle.cs using Guid(e9a65bd33a359054bb98e38ec6dc286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d854f08df6fd58aeca26f57c6f36ec') in 0.003677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.978 seconds
-Refreshing native plugins compatible for Editor in 6.63 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:09:40 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 291)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.471 seconds
-Domain Reload Profiling: 2446ms
-	BeginReloadAssembly (199ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (688ms)
-		LoadAssemblies (398ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (363ms)
-			TypeCache.Refresh (351ms)
-				TypeCache.ScanAssembly (335ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1471ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (934ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (742ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4472.
-Memory consumption went from 142.7 MB to 141.2 MB.
-Total: 4.553900 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.136900 ms MarkObjects: 3.892000 ms  DeleteObjects: 0.265400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-IOException: Sharing violation on path C:\Users\rosey\AppData\Local\Temp\DefaultCompany\LKG Demo\Preview Data.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <605bf8b31fcb444b85176da963870aa7>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <605bf8b31fcb444b85176da963870aa7>:0 
-  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <605bf8b31fcb444b85176da963870aa7>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
-  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <605bf8b31fcb444b85176da963870aa7>:0 
-  at LookingGlass.Editor.Preview.SavePreview (System.String filePath) [0x00024] in C:\Users\rosey\source\repos\4Asset\4Asset\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:119 
-  at LookingGlass.Editor.Preview.OnBeforeAssemblyReload () [0x00001] in C:\Users\rosey\source\repos\4Asset\4Asset\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:78 
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <da771086bc2e4cfc9ad0a72e083a7f98>:0 
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass.Editor/Preview.cs Line: 119)
-
-- Loaded All Assemblies, in  0.898 seconds
-Refreshing native plugins compatible for Editor in 6.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:09:47 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.734 seconds
-Domain Reload Profiling: 2630ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (643ms)
-		LoadAssemblies (364ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (343ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (321ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1734ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1122ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (890ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4478.
-Memory consumption went from 143.0 MB to 141.5 MB.
-Total: 4.764200 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.130700 ms MarkObjects: 3.909100 ms  DeleteObjects: 0.471800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.892 seconds
-Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:10:03 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.644 seconds
-Domain Reload Profiling: 2534ms
-	BeginReloadAssembly (170ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (638ms)
-		LoadAssemblies (382ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (315ms)
-				TypeCache.ScanAssembly (299ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1645ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1116ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (174ms)
-			ProcessInitializeOnLoadAttributes (880ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 8.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4484.
-Memory consumption went from 143.0 MB to 141.5 MB.
-Total: 4.358600 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.168600 ms MarkObjects: 3.636800 ms  DeleteObjects: 0.268100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.894 seconds
-Refreshing native plugins compatible for Editor in 8.78 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:10:31 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.772 seconds
-Domain Reload Profiling: 2663ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1584ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (632ms)
-		LoadAssemblies (377ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (260ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (314ms)
-				TypeCache.ScanAssembly (299ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1772ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (873ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1227ms)
+		SetupLoadedEditorAssemblies (727ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (983ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4490.
-Memory consumption went from 143.0 MB to 141.5 MB.
-Total: 4.684800 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.196700 ms MarkObjects: 3.876300 ms  DeleteObjects: 0.262300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.855 seconds
-Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:11:07 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.568 seconds
-Domain Reload Profiling: 2421ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (601ms)
-		LoadAssemblies (356ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (311ms)
-			TypeCache.Refresh (304ms)
-				TypeCache.ScanAssembly (291ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1568ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1080ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (878ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4496.
-Memory consumption went from 143.0 MB to 141.5 MB.
-Total: 4.849700 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.134900 ms MarkObjects: 4.191300 ms  DeleteObjects: 0.267400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.885 seconds
-Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:12:30 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.434 seconds
-Domain Reload Profiling: 2317ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (627ms)
-		LoadAssemblies (382ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (313ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (288ms)
-			ScanForSourceGeneratedMonoScriptInfo (4ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1435ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (947ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (756ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (632ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 6.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4502.
-Memory consumption went from 143.0 MB to 141.5 MB.
-Total: 4.376700 ms (FindLiveObjects: 0.265000 ms CreateObjectMapping: 0.137100 ms MarkObjects: 3.710700 ms  DeleteObjects: 0.262700 ms)
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (1.5 MB). Loaded Objects now: 4459.
+Memory consumption went from 153.6 MB to 152.1 MB.
+Total: 5.339500 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.350800 ms MarkObjects: 4.317100 ms  DeleteObjects: 0.328200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.955 seconds
-Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:13:38 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.811 seconds
-Domain Reload Profiling: 2764ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (693ms)
-		LoadAssemblies (379ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (380ms)
-			TypeCache.Refresh (373ms)
-				TypeCache.ScanAssembly (346ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1811ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1143ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (174ms)
-			ProcessInitializeOnLoadAttributes (903ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 6.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4508.
-Memory consumption went from 143.0 MB to 141.5 MB.
-Total: 4.846300 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.163800 ms MarkObjects: 4.081200 ms  DeleteObjects: 0.327200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.851 seconds
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:14:10 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.631 seconds
-Domain Reload Profiling: 2480ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (597ms)
-		LoadAssemblies (357ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (288ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1632ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1110ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (894ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4514.
-Memory consumption went from 143.1 MB to 141.5 MB.
-Total: 4.389000 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.150600 ms MarkObjects: 3.713100 ms  DeleteObjects: 0.262700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.903 seconds
-Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:16:52 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.678 seconds
-Domain Reload Profiling: 2578ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (640ms)
-		LoadAssemblies (373ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (332ms)
-			TypeCache.Refresh (324ms)
-				TypeCache.ScanAssembly (309ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1679ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1071ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (846ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4520.
-Memory consumption went from 143.1 MB to 141.6 MB.
-Total: 4.890100 ms (FindLiveObjects: 0.343400 ms CreateObjectMapping: 0.211700 ms MarkObjects: 4.072700 ms  DeleteObjects: 0.261300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -1114,22 +216,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 475.264511 seconds.
-  path: Assets/Models/Sword_Model Variant.prefab
-  artifactKey: Guid(8c8a40aec4b4b72479bd821b37ac9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Sword_Model Variant.prefab using Guid(8c8a40aec4b4b72479bd821b37ac9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ade5b57c82868186829af6f3be5e87a') in 0.190049 seconds
+  Time since last request: 2060.012803 seconds.
+  path: Assets/Models/V2_Meshlab.mb
+  artifactKey: Guid(3eedcb8f5737e1940b69964b8ed37d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/V2_Meshlab.mb using Guid(3eedcb8f5737e1940b69964b8ed37d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701d8a6dc2cefdee36e0b04bfc847928') in 0.253471 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
+Number of asset objects unloaded after import = 36
+[2/14/2025 7:51:56 PM] FATAL WebSocket.connect:1345
+
+  No connection could be made because the target machine actively refused it.
+  
+[2/14/2025 7:52:00 PM] FATAL WebSocket.connect:1345
+
+  No connection could be made because the target machine actively refused it.
+  
+Failed to connect to Looking Glass Bridge. Ensure LKG Bridge is running and retry by clicking LookingGlass → Retry LKG Bridge Connection.
+    LKG Bridge rest port: 33334
+    LKG Bridge websockets port: 9724
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+LookingGlass.LKGDisplaySystem/<>c__DisplayClass26_0:<ForceReconnect>b__0 () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:222)
+System.Threading.Tasks.Task`1<bool>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 222)
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.912 seconds
-Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:18:16 PM...
+Attempting to connect to LKG Bridge at 2/14/2025 7:52:12 PM...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -1145,61 +276,83 @@ System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.Runti
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
+
+Unable to find LKG Bridge settings.json at file path: C:/Users/rosey/AppData/Roaming/Looking Glass/Bridge/settings.json
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+LookingGlass.LKGDisplaySystem:GetLKGBridgePorts (int&,int&) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:291)
+LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:198)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26> (LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26&)
+LookingGlass.LKGDisplaySystem:ForceReconnect ()
+LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:318)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
+LookingGlass.LKGDisplaySystem:Reconnect ()
+LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
+LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
+LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
+LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 291)
 
 Mono: successfully reloaded assembly
 UnauthorizedAccessException: Access to the path 'C:\Users\rosey\AppData\Local\Temp\DefaultCompany\LKG Demo\Preview Data.json' is denied.
   at System.IO.FileSystem.DeleteFile (System.String fullPath) [0x0001a] in <605bf8b31fcb444b85176da963870aa7>:0 
   at System.IO.File.Delete (System.String path) [0x00014] in <605bf8b31fcb444b85176da963870aa7>:0 
-  at LookingGlass.Editor.Preview.ConsumeLoadPreview (System.String filePath) [0x00029] in C:\Users\rosey\source\repos\4Asset\4Asset\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:128 
-  at LookingGlass.Editor.Preview.OnAfterAssemblyReload () [0x00001] in C:\Users\rosey\source\repos\4Asset\4Asset\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:87 
+  at LookingGlass.Editor.Preview.ConsumeLoadPreview (System.String filePath) [0x00028] in C:\Users\rosey\source\repos\4Asset\4Asset\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:128 
+  at LookingGlass.Editor.Preview.OnAfterAssemblyReload () [0x00000] in C:\Users\rosey\source\repos\4Asset\4Asset\Assets\LookingGlass\Scripts\LookingGlass.Editor\Preview.cs:87 
   at UnityEditor.AssemblyReloadEvents.OnAfterAssemblyReload () [0x00017] in <da771086bc2e4cfc9ad0a72e083a7f98>:0 
 
 (Filename: Assets/LookingGlass/Scripts/LookingGlass.Editor/Preview.cs Line: 128)
 
-- Finished resetting the current domain, in  1.750 seconds
-Domain Reload Profiling: 2659ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  1.141 seconds
+Domain Reload Profiling: 1803ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (650ms)
-		LoadAssemblies (366ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (243ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (353ms)
-			TypeCache.Refresh (346ms)
-				TypeCache.ScanAssembly (331ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (248ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1750ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1141ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1139ms)
+		SetupLoadedEditorAssemblies (701ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (185ms)
-			ProcessInitializeOnLoadAttributes (914ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (597ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4533.
-Memory consumption went from 147.3 MB to 145.8 MB.
-Total: 5.177200 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.140600 ms MarkObjects: 4.463500 ms  DeleteObjects: 0.302600 ms)
+Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4509.
+Memory consumption went from 147.1 MB to 145.6 MB.
+Total: 4.173200 ms (FindLiveObjects: 0.342900 ms CreateObjectMapping: 0.348700 ms MarkObjects: 3.205900 ms  DeleteObjects: 0.275100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -1210,16 +363,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[2/14/2025 7:52:17 PM] FATAL WebSocket.connect:1345
+
+  No connection could be made because the target machine actively refused it.
+  
+[2/14/2025 7:52:21 PM] FATAL WebSocket.connect:1345
+
+  No connection could be made because the target machine actively refused it.
+  
+Failed to connect to Looking Glass Bridge. Ensure LKG Bridge is running and retry by clicking LookingGlass → Retry LKG Bridge Connection.
+    LKG Bridge rest port: 33334
+    LKG Bridge websockets port: 9724
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+LookingGlass.LKGDisplaySystem/<>c__DisplayClass26_0:<ForceReconnect>b__0 () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:222)
+System.Threading.Tasks.Task`1<bool>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 222)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.320799 seconds.
+  path: Assets/Models/Sword_Model Variant.prefab
+  artifactKey: Guid(8c8a40aec4b4b72479bd821b37ac9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword_Model Variant.prefab using Guid(8c8a40aec4b4b72479bd821b37ac9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fdd9d6050d4c225a20a0b6f203331d') in 0.090797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 5.884015 seconds.
+  path: Assets/Scripts/Input Manager.prefab
+  artifactKey: Guid(584fb9dbc3b6c7e47a851e830d0c80c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Input Manager.prefab using Guid(584fb9dbc3b6c7e47a851e830d0c80c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0826339f6feba1adff1c3c19a1b4e27a') in 0.007446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.508434 seconds.
+  path: Assets/Scripts/Vehicle.cs
+  artifactKey: Guid(e9a65bd33a359054bb98e38ec6dc286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vehicle.cs using Guid(e9a65bd33a359054bb98e38ec6dc286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f5228167390c7aa0f48e3c4cb79462') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.929 seconds
-Refreshing native plugins compatible for Editor in 18.71 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.682 seconds
+Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:18:27 PM...
+Attempting to connect to LKG Bridge at 2/14/2025 7:53:32 PM...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -1236,51 +442,73 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
 
+Unable to find LKG Bridge settings.json at file path: C:/Users/rosey/AppData/Roaming/Looking Glass/Bridge/settings.json
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+LookingGlass.LKGDisplaySystem:GetLKGBridgePorts (int&,int&) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:291)
+LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:198)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26> (LookingGlass.LKGDisplaySystem/<ForceReconnect>d__26&)
+LookingGlass.LKGDisplaySystem:ForceReconnect ()
+LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:318)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
+LookingGlass.LKGDisplaySystem:Reconnect ()
+LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
+LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
+LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
+LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 291)
+
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.841 seconds
-Domain Reload Profiling: 2767ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (677ms)
-		LoadAssemblies (374ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (364ms)
-				TypeCache.ScanAssembly (344ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (250ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1841ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1125ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1170ms)
+		SetupLoadedEditorAssemblies (684ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (190ms)
-			ProcessInitializeOnLoadAttributes (917ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4539.
-Memory consumption went from 147.6 MB to 146.1 MB.
-Total: 4.571900 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.137800 ms MarkObjects: 3.884100 ms  DeleteObjects: 0.285800 ms)
+Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4515.
+Memory consumption went from 147.1 MB to 145.6 MB.
+Total: 3.709700 ms (FindLiveObjects: 0.331300 ms CreateObjectMapping: 0.332600 ms MarkObjects: 2.782000 ms  DeleteObjects: 0.263200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -1291,570 +519,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.905 seconds
-Refreshing native plugins compatible for Editor in 11.35 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:18:36 PM...
+[2/14/2025 7:53:36 PM] FATAL WebSocket.connect:1345
+
+  No connection could be made because the target machine actively refused it.
+  
+[2/14/2025 7:53:40 PM] FATAL WebSocket.connect:1345
+
+  No connection could be made because the target machine actively refused it.
+  
+Failed to connect to Looking Glass Bridge. Ensure LKG Bridge is running and retry by clicking LookingGlass → Retry LKG Bridge Connection.
+    LKG Bridge rest port: 33334
+    LKG Bridge websockets port: 9724
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEngine.Debug:LogError (object)
+LookingGlass.LKGDisplaySystem/<>c__DisplayClass26_0:<ForceReconnect>b__0 () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:222)
+System.Threading.Tasks.Task`1<bool>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
 
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
+(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 222)
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.786 seconds
-Domain Reload Profiling: 2689ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (642ms)
-		LoadAssemblies (370ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (334ms)
-				TypeCache.ScanAssembly (321ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1787ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1139ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (914ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 6.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4545.
-Memory consumption went from 147.6 MB to 146.1 MB.
-Total: 4.486300 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.139100 ms MarkObjects: 3.808600 ms  DeleteObjects: 0.269700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.867 seconds
-Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:19:02 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.625 seconds
-Domain Reload Profiling: 2490ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (610ms)
-		LoadAssemblies (368ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (288ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1626ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1085ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (886ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 9.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4551.
-Memory consumption went from 147.6 MB to 146.1 MB.
-Total: 5.697500 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.152700 ms MarkObjects: 4.770100 ms  DeleteObjects: 0.505700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.848 seconds
-Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:21:12 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.598 seconds
-Domain Reload Profiling: 2443ms
-	BeginReloadAssembly (175ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (590ms)
-		LoadAssemblies (353ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (306ms)
-			TypeCache.Refresh (299ms)
-				TypeCache.ScanAssembly (286ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1598ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1092ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (904ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 8.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4557.
-Memory consumption went from 147.6 MB to 146.1 MB.
-Total: 5.691300 ms (FindLiveObjects: 0.397900 ms CreateObjectMapping: 0.191000 ms MarkObjects: 4.832200 ms  DeleteObjects: 0.269200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.892 seconds
-Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:21:52 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.736 seconds
-Domain Reload Profiling: 2626ms
-	BeginReloadAssembly (175ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (634ms)
-		LoadAssemblies (354ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (346ms)
-			TypeCache.Refresh (339ms)
-				TypeCache.ScanAssembly (320ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1737ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1049ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (815ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4563.
-Memory consumption went from 147.6 MB to 146.1 MB.
-Total: 4.602300 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.142800 ms MarkObjects: 3.893900 ms  DeleteObjects: 0.273200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.869 seconds
-Refreshing native plugins compatible for Editor in 7.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:22:06 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.661 seconds
-Domain Reload Profiling: 2528ms
-	BeginReloadAssembly (167ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (615ms)
-		LoadAssemblies (355ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (329ms)
-			TypeCache.Refresh (322ms)
-				TypeCache.ScanAssembly (307ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1662ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1126ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (900ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 10.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4569.
-Memory consumption went from 147.6 MB to 146.1 MB.
-Total: 4.493700 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.377000 ms MarkObjects: 3.585500 ms  DeleteObjects: 0.256100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.856 seconds
-Refreshing native plugins compatible for Editor in 7.08 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:22:41 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.500 seconds
-Domain Reload Profiling: 2354ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (595ms)
-		LoadAssemblies (350ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (314ms)
-			TypeCache.Refresh (304ms)
-				TypeCache.ScanAssembly (289ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1501ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1020ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (824ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4575.
-Memory consumption went from 147.7 MB to 146.2 MB.
-Total: 4.640800 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.131900 ms MarkObjects: 3.899900 ms  DeleteObjects: 0.262500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.881 seconds
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Attempting to connect to LKG Bridge at 2/14/2025 3:23:44 PM...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-LookingGlass.LKGDisplaySystem/<Reconnect>d__29:MoveNext () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:314)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<LookingGlass.LKGDisplaySystem/<Reconnect>d__29> (LookingGlass.LKGDisplaySystem/<Reconnect>d__29&)
-LookingGlass.LKGDisplaySystem:Reconnect ()
-LookingGlass.LKGDisplaySystem:InitializeSystem () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs:175)
-LookingGlass.UnityLKGSystems:PerformSafe (System.Action) (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:74)
-LookingGlass.UnityLKGSystems:InitializeAllSystems () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:54)
-LookingGlass.UnityLKGSystems:.cctor () (at Assets/LookingGlass/Scripts/LookingGlass/Systems/UnityLKGSystems.cs:23)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/LookingGlass/Scripts/LookingGlass/Systems/LKGDisplaySystem.cs Line: 314)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.799 seconds
-Domain Reload Profiling: 2678ms
-	BeginReloadAssembly (167ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (629ms)
-		LoadAssemblies (352ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (342ms)
-			TypeCache.Refresh (335ms)
-				TypeCache.ScanAssembly (315ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1799ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1140ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (899ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 11.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.5 MB). Loaded Objects now: 4581.
-Memory consumption went from 147.7 MB to 146.2 MB.
-Total: 4.582700 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.133200 ms MarkObjects: 3.854200 ms  DeleteObjects: 0.324400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

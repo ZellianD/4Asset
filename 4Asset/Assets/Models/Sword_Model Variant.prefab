@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
       propertyPath: m_LocalScale.x
@@ -82,15 +82,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3554950996784553483}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 500986641010251524}
   m_SourcePrefab: {fileID: 100100000, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
---- !u!4 &2747837786390373048 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
-  m_PrefabInstance: {fileID: 2425468315386037587}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3272312926542886914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e271fef6829e1a6458aa48552aeb5297, type: 3}
@@ -144,23 +136,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09020176, y: 0.21114004, z: 0.018949665}
   m_Center: {x: 0, y: 0.0000000037252925, z: 3.330669e-16}
---- !u!114 &500986641010251524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272312926542886914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9a65bd33a359054bb98e38ec6dc286b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rBody: {fileID: 7928092801959538397}
-  carBody: {fileID: 2747837786390373048}
-  maxSpeed: 50
-  stopThreshold: 0
-  accelerationRate: 10
-  decelerationRate: 4
-  turnRate: 30
-  forwardRot: {x: 0, y: 0, z: 0, w: 0}

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638751597942612510
-    m_Hash: 1801415691
+      ticks: 638751755912184439
+    m_Hash: 4175141280
   m_LockFileStatus:
     m_FilePath: C:/Users/rosey/source/repos/4Asset/4Asset/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638751597942754057
-    m_Hash: 2013612743
+      ticks: 638751755912184439
+    m_Hash: 2756778142
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -120,7 +120,6 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
-    - 2.7.1
     compatible:
     - 2.0.5
     - 2.0.7
@@ -135,7 +134,6 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
-    - 2.7.1
     recommended: 2.0.7
     deprecated: []
   dependencies: []
@@ -347,8 +345,6 @@ m_ResolvedPackages:
     - 1.11.0
     - 1.11.1
     - 1.11.2
-    - 1.12.0
-    - 1.13.0
     compatible:
     - 1.6.1
     - 1.6.3
@@ -363,8 +359,6 @@ m_ResolvedPackages:
     - 1.11.0
     - 1.11.1
     - 1.11.2
-    - 1.12.0
-    - 1.13.0
     recommended: 1.6.3
     deprecated: []
   dependencies:
