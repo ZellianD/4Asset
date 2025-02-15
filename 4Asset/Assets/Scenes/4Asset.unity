@@ -790,6 +790,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7849954892661982041, guid: b22f9b31c4d0723429cb635c82cbfa4b, type: 3}
+--- !u!114 &714109281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714109279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b667a54b445a04681aaada429f273c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &714109282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714109279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388651d929e673d4fbdf086161a347bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMovmentController: {fileID: 714109281}
 --- !u!1001 &756848592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -869,6 +894,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b22f9b31c4d0723429cb635c82cbfa4b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 714109280}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b22f9b31c4d0723429cb635c82cbfa4b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 714109282}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b22f9b31c4d0723429cb635c82cbfa4b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 714109281}
   m_SourcePrefab: {fileID: 100100000, guid: b22f9b31c4d0723429cb635c82cbfa4b, type: 3}
 --- !u!1001 &878753401
 PrefabInstance:
@@ -988,6 +1019,18 @@ PrefabInstance:
     - target: {fileID: 1025052353987365764, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
       propertyPath: m_Name
       value: Input Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2126892706}
+    - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
+      propertyPath: m_DefaultControlScheme
+      value: Keyboard&Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
+      propertyPath: m_NeverAutoSwitchControlSchemes
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382291123777450729, guid: 584fb9dbc3b6c7e47a851e830d0c80c5, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.size
@@ -1455,6 +1498,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b129912e6ba4e7245898f6628ce2bb24, type: 3}
+--- !u!20 &2126892706 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7920822893500534720, guid: 3019d4eebe2593e428d7b9ccb096ceda, type: 3}
+  m_PrefabInstance: {fileID: 199243466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5123537114306800488
 PrefabInstance:
   m_ObjectHideFlags: 0

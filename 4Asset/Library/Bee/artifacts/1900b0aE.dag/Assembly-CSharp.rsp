@@ -372,6 +372,8 @@
 "Assets/LookingGlass/Examples/DemoResources/LookingGlass Alcove/DynamicAlcove.cs"
 "Assets/LookingGlass/Examples/URP/ExampleAssets/TutorialInfo/Scripts/Readme.cs"
 "Assets/LookingGlass/Extras/OBEY Game Assets/lightFlicker.cs"
+"Assets/Scripts/InputController.cs"
+"Assets/Scripts/MovementController.cs"
 "Assets/Scripts/Vehicle.cs"
 -langversion:9.0
 
