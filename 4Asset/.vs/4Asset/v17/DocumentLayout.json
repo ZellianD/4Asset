@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{C93CE926-7CBA-3F74-E043-F757B2FE62E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93CE926-7CBA-3F74-E043-F757B2FE62E3}|Assembly-CSharp.csproj|c:\\users\\rosey\\source\\repos\\4asset\\4asset\\assets\\scripts\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C93CE926-7CBA-3F74-E043-F757B2FE62E3}|Assembly-CSharp.csproj|C:\\Users\\rosey\\source\\repos\\4Asset\\4Asset\\assets\\scripts\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C93CE926-7CBA-3F74-E043-F757B2FE62E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementController.cs",
               "ToolTip": "C:\\Users\\rosey\\source\\repos\\4Asset\\4Asset\\Assets\\Scripts\\MovementController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovementController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T22:19:55.609Z",
               "EditorCaption": ""
