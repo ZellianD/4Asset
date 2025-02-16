@@ -373,7 +373,6 @@
 "Assets/LookingGlass/Extras/OBEY Game Assets/lightFlicker.cs"
 "Assets/Scripts/InputController.cs"
 "Assets/Scripts/MovementController.cs"
-"Assets/Scripts/Vehicle.cs"
 -langversion:9.0
 
 /deterministic
